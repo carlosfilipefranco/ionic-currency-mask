@@ -1,17 +1,46 @@
 {
-  "name": "@thiagoprz/ionic-currency-mask",
-  "version": "0.0.12",
-  "description": "Ionic currency mask for input",
-  "publishConfig": {
-    "access": "public"
+  "_from": "@thiagoprz/ionic-currency-mask",
+  "_id": "@thiagoprz/ionic-currency-mask@0.0.13",
+  "_inBundle": false,
+  "_integrity": "sha512-NzrZEUsKhltHmivRKCxVwk8Yx0ZycM8CakG/C0RmkGvGPQZ5uEhPa8u+Fq13Y6cx4iju3RVWEQZk3l4T0tjnCg==",
+  "_location": "/@thiagoprz/ionic-currency-mask",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@thiagoprz/ionic-currency-mask",
+    "name": "@thiagoprz/ionic-currency-mask",
+    "escapedName": "@thiagoprz%2fionic-currency-mask",
+    "scope": "@thiagoprz",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
-  "peerDependencies": {
-    "@angular/common": "^11.2.4",
-    "@angular/core": "^11.2.4"
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@thiagoprz/ionic-currency-mask/-/ionic-currency-mask-0.0.13.tgz",
+  "_shasum": "0aa49c675d42ae31796df203ad587df219a48eb8",
+  "_spec": "@thiagoprz/ionic-currency-mask",
+  "_where": "/Users/carlosfranco/Sites/aaua",
+  "author": {
+    "name": "Thiago Przyczynski",
+    "email": "przyczynski@gmail.com"
   },
+  "bugs": {
+    "url": "https://github.com/thiagoprz/ionic-currency-mask/issues"
+  },
+  "bundleDependencies": false,
   "dependencies": {
     "tslib": "^2.0.0"
   },
+  "deprecated": false,
+  "description": "Ionic currency mask for input",
+  "es2015": "fesm2015/thiagoprz-ionic-currency-mask.js",
+  "esm2015": "esm2015/thiagoprz-ionic-currency-mask.js",
+  "fesm2015": "fesm2015/thiagoprz-ionic-currency-mask.js",
+  "homepage": "https://github.com/thiagoprz/ionic-currency-mask#readme",
   "keywords": [
     "ionic",
     "angular",
@@ -27,14 +56,23 @@
     "for",
     "inputs"
   ],
+  "license": "MIT",
+  "main": "bundles/thiagoprz-ionic-currency-mask.umd.js",
+  "metadata": "thiagoprz-ionic-currency-mask.metadata.json",
+  "module": "fesm2015/thiagoprz-ionic-currency-mask.js",
+  "name": "@thiagoprz/ionic-currency-mask",
+  "peerDependencies": {
+    "@angular/common": "^11.2.4",
+    "@angular/core": "^11.2.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/thiagoprz/ionic-currency-mask.git"
   },
-  "author": "Thiago Przyczynski <przyczynski@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/thiagoprz/ionic-currency-mask/issues"
-  },
-  "homepage": "https://github.com/thiagoprz/ionic-currency-mask#readme"
+  "sideEffects": false,
+  "typings": "thiagoprz-ionic-currency-mask.d.ts",
+  "version": "0.0.13"
 }
