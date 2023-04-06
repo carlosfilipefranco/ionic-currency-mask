@@ -40,10 +40,10 @@ export class CurrencyMaskDirective {
    * Listener changeValue
    * @param event
    */
-  changeValue(event: any) {
+  changeValue(event) {
     let value = event.target.value;
     if (value == '') {
-      return;
+        return;
     }
     value = value + '';
     value = parseInt(value.replace(/[\D]+/g, ''));
@@ -51,10 +51,15 @@ export class CurrencyMaskDirective {
     value = value.replace(/([0-9]{2})$/g, this.decimal + '$1');
     var parts = value.toString().split(this.decimal);
     parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, this.thousand);
+    if(parts[0] === '') {
+        parts[0] = 0;
+    }
     value = parts.join(this.decimal);
-    console.log(value);
+    if(isNaN(value)) {
+        value = 0;
+    }
     event.target.value = value;
     this.model.update.emit(value);
     return true;
-  }
+}
 }
