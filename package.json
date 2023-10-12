@@ -61,10 +61,6 @@
   "metadata": "thiagoprz-ionic-currency-mask.metadata.json",
   "module": "fesm2015/thiagoprz-ionic-currency-mask.js",
   "name": "@thiagoprz/ionic-currency-mask",
-  "peerDependencies": {
-    "@angular/common": "^11.2.4",
-    "@angular/core": "^11.2.4"
-  },
   "publishConfig": {
     "access": "public"
   },
